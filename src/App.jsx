@@ -6,7 +6,7 @@ import Home from "./pages/Home.jsx";
 import Favorites from "./pages/Favorites.jsx";
 import LogIn from "./pages/LogIn.jsx";
 import SignUp from "./pages/SignUp.jsx";
-import DiscountFeed from "./pages/DiscountFeed.jsx";
+// import DiscountFeed from "./pages/DiscountFeed.jsx";
 import AdminPanel from "./admin/AdminPanel.jsx";
 import AddProduct from "./components/AddProduct.jsx";
 import CartPage from "./pages/CartPage.jsx";
