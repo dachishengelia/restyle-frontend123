@@ -6,7 +6,6 @@ import Home from "./pages/Home.jsx";
 import Favorites from "./pages/Favorites.jsx";
 import LogIn from "./pages/LogIn.jsx";
 import SignUp from "./pages/SignUp.jsx";
-// import DiscountFeed from "./pages/DiscountFeed.jsx";
 import AdminPanel from "./admin/AdminPanel.jsx";
 import AddProduct from "./components/AddProduct.jsx";
 import CartPage from "./pages/CartPage.jsx";
@@ -111,7 +110,7 @@ export default function App() {
               <Route path="/log-in" element={<LogIn />} />
               <Route path="/sign-up" element={<SignUp />} />
 
-              <Route
+              {/* <Route
                 path="/discounts"
                 element={
                   <DiscountFeed
@@ -123,7 +122,7 @@ export default function App() {
                     removeFromCart={removeFromCart}
                   />
                 }
-              />
+              /> */}
 
               <Route path="/cart" element={<CartPage />} />
               <Route path="/admin" element={<RequireAdmin><AdminPanel /></RequireAdmin>} />
